@@ -1,44 +1,15 @@
-html {
-  height: 100%;
-  width: 100%;
+.mult-table {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 564px;
+    margin: 0 auto;
+    padding: 1px;
+    border: 1px solid black;
 }
 
-body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #d2d2d4;
-}
-
-header {
-  height: 80px;
-  background: blue;
-}
-
-header h1 {
-  padding-top: 20px;
-  font-size: 30px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-header h1 a {
-color: #ffffff;
-}
-
-#content {
-  padding: 0 40px 0 40px;
-}
-
-footer {
-  clear: both;
-  height: 70px;
-  padding: 0 20px;
-  background: blue;
-  color: white;
-  text-align: center;
-}
-
-footer h6 a {
-color: #ffffff;
+.mult-table-col {
+    width: 110px;
+    margin: 1px auto;
+    padding: 5px;
+    border: 1px solid black;
 }
